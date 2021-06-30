@@ -1,7 +1,10 @@
 # WELCOME
 
-*	Introduction
-*	Contact
+These lessons will go over various data structures. this will help you in your programming so that you can better understand and utilize Data Structures. Using the right data structure to meet your needs will result in more efficient programs.
+
+Dylan Havens (havensdylan5@gmail.com) 
+
+July 2021
 
 ## [Stack](2-Stacks/Stacks.md)
 
@@ -44,3 +47,4 @@
 * Performance
 * Example
 * Problem to Solve
+

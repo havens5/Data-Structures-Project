@@ -2,7 +2,7 @@
 
 These lessons will go over various data structures. This will help you in your programming so that you can better understand and utilize Data Structures. Using the right data structure to meet your needs will result in more efficient programs.
 
-Dylan Havens (havensdylan5@gmail.com) 
+Dylan Havens 
 
 July 2021
 

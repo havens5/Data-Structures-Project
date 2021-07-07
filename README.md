@@ -1,6 +1,6 @@
 # WELCOME
 
-These lessons will go over various data structures. this will help you in your programming so that you can better understand and utilize Data Structures. Using the right data structure to meet your needs will result in more efficient programs.
+These lessons will go over various data structures. This will help you in your programming so that you can better understand and utilize Data Structures. Using the right data structure to meet your needs will result in more efficient programs.
 
 Dylan Havens (havensdylan5@gmail.com) 
 
@@ -12,11 +12,13 @@ July 2021
     * Ice Cream cone Example
     * Flow of data
 * When to use a stack?
-* Elements of stacks
     * Front
     * Back 
+* Elements of stacks
     * Push 
     * Pop
+    * Size
+    * Empty
 * Performance 
 * Example
 * Problem to Solve

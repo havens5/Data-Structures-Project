@@ -23,7 +23,7 @@ Now as we look at this image what comes to mind? You may be thinking "Wow someon
 When you create an ice cream tower like this, it all starts at the bottom and you work your way up. Stacks work in a similar manner. It works in the manner of **Fisrt** in **Last** out. 
 
 ## When to use a Stack
-Stacks are really
+Stacks are really good at tracking history of where you have been. As items are placed on the stack, with first in last out in essesnce we can see that we work from the top of the ice cream tower to the ice cream cone. So you will be able to see all the different flavors that you stacked on top one another.
 
 ![Ice cream push/pop](ice-cream-stack.jpg)
 
@@ -43,6 +43,9 @@ As we can see the preformance for all the operations of a stack including adding
 ## Example 
 
 ## Try it out!
+
+## Resourses
+ice cream image - https://www.shape.com/healthy-eating/diet-tips/healthy-ice-cream-guide-which-variety-best
 
 
 [Overview](../README.md) | [Next Lesson](../3-LinkedList/LinkedList.md)

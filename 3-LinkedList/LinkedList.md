@@ -12,22 +12,39 @@
 * [Problem to Solve](#problem-to-solve)
 
 ## Introduction
-Previously in stacks and dynamic arrays we see that they are all *stored in memory right next to one another*. This make for quick access of items and this is the same for a queue, set, and map. A **Linked List** on the other hand is *stored in a random way in memory*. Each element is called a **Node**. Each node contains the address of the next node in the list. When using the same analogy as stacks, each scoop of ice cream will have the location of the next scoop of ice cream.
+Previously in stacks and dynamic arrays we see that they are all *stored in memory right next to one another*. This make for quick access of items and this is the same for a queue, set, and map. A **Linked List** on the other hand is *stored in a random way in memory*. Each element is called a **Node**. Each node contains the address or pointer of the **next** node in the list. When using the same analogy as stacks, each scoop of ice cream will have the location of the next scoop of ice cream.
 
-Linked List
+**Linked List**
 ![Single Linked List](single-linked-list.PNG)
 
+The first node is know as the **Head**. Knowing where the head is allows you to navigate through the whole link list but following each pointer after the head. most linked lists look like the following figure of a doubly-linked list. This shows that Linked lists are mostly bi-directionally linked. Each node keeps track of the **Next** node and the **Previous** node. The **tail** of the linked list is similar to the head but references the last node in the linked-list.  
 
-
-Doubly-Linked List
+**Doubly-Linked List**
 ![Double Linked List](double-linked-list.PNG)
 
 
 ## When to use Linked Lists?
 
+Linked lists are a good choice when there will be constant changes to the list. This data structure is good at allocating memory if more nodes are added instead of copying everything to create a new list for more room. Also you will be ale to insert where ever you need into the linked list.
+
 ## Elements of Linked Lists
 
+|Operation          |Description                                            |Python Code                   |Preformance|
+|------------       |-------------------------------------------------------|------------------------------|-----------|
+|insert_head(item)  |Adds "item" before the head                            |icecream.appendleft(flavor)   |O(1)       |
+|insert_tail(item)  |Adds "item" after the tail                             |icecream.append(flavor)       |O(1)       |
+|insert(a, item)    |Adds "item" after node "a"                             |icecream.insert(a,flavor)     |O(n)       |
+|remove_head()      |Removes the first node known as the head               |flavor = icecream.popleft()   |O(1)       |
+|remove_tail()      |Removes the last node known as the tail                |flavor = icecream.pop()       |O(1)       |
+|remove(a)          |Removes node "a"                                       |del icecream[a]               |O(n)       |
+|size()             |Return the size of the linked list                     |numFlavors = len(icecream)    |O(1)       |
+|empty()            |Returns true if the length of the linked list is empty |if len(icecream) == 0         |O(1)       |  
+
+### Instering 
+
 ## Performance
+
+From the Table above we can see that Linked lists are great when we have to insert or remove from the head or the tail but once we have to search through the linked list for a particular node it becomes a O(n) operation. This is because we will have to loop through the Linked list to find the node that we want so depending on how large the list is then it will affect the performance in a like manner.
 
 ## Example
 

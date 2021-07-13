@@ -42,6 +42,59 @@ Linked lists are a good choice when there will be constant changes to the list. 
 
 ### Instering 
 
+**Insert the Head**
+![Insert Head](insert-head.PNG)
+1. Create the new node.
+1. Set the next pointer of the new node to the current head.
+1. Set the previous pointer of the old head to the new node.
+1. Set the head to the new node.
+
+In a similar manner use this process to insert to the tail
+
+**Insert in the Middle**
+![Insert Middle](insert-middle.PNG)
+1. 
+1. 
+1. 
+1. 
+1. 
+
+### Removing 
+
+**Removing the Head**
+![Remove Head](remove-head.PNG)
+1. 
+1. 
+
+**Removing in the middle**
+![Remove Middle](removing-middle.PNG)
+1. currentNode.next.prev = currentNode.prev
+1. currentNode.prev.next = currentNode.next
+
+### Accessing
+When we need to traverse anything in a linked list we need to use a loop to check each node for the data that we are searching for. Starting at the head or tail we use the **next** when starting at the **head** (**prev** for starting at the **tail**). We look at the data in each node with each loop until we find the node that we are looking for.
+
+```python
+def traversing(list, lookingFor)
+
+    # Start at the Head or Tail
+    currentNode = list.head
+
+    # Loop through the Linked-list (when the next or previous node is none)
+    while currentNode is not None:
+
+        # Check to see if the current node is what your looking for
+        if currentNode.data == lookingFor:
+
+            # Print the data of the current node
+            print(currentNode.data)
+
+        # Use the pointer of the current node to move forward (next) or backward (prev)
+        currentNode = currentNode.next
+```
+
+
+
 ## Performance
 
 From the Table above we can see that Linked lists are great when we have to insert or remove from the head or the tail but once we have to search through the linked list for a particular node it becomes a O(n) operation. This is because we will have to loop through the Linked list to find the node that we want so depending on how large the list is then it will affect the performance in a like manner.

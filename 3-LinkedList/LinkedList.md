@@ -15,11 +15,13 @@
 Previously in stacks and dynamic arrays we see that they are all *stored in memory right next to one another*. This make for quick access of items and this is the same for a queue, set, and map. A **Linked List** on the other hand is *stored in a random way in memory*. Each element is called a **Node**. Each node contains the address or pointer of the **next** node in the list. When using the same analogy as stacks, each scoop of ice cream will have the location of the next scoop of ice cream.
 
 **Linked List**
+
 ![Single Linked List](single-linked-list.PNG)
 
 The first node is know as the **Head**. Knowing where the head is allows you to navigate through the whole link list but following each pointer after the head. most linked lists look like the following figure of a doubly-linked list. This shows that Linked lists are mostly bi-directionally linked. Each node keeps track of the **Next** node and the **Previous** node. The **tail** of the linked list is similar to the head but references the last node in the linked-list.  
 
 **Doubly-Linked List**
+
 ![Double Linked List](double-linked-list.PNG)
 
 
@@ -40,9 +42,10 @@ Linked lists are a good choice when there will be constant changes to the list. 
 |size()             |Return the size of the linked list                     |numFlavors = len(icecream)    |O(1)       |
 |empty()            |Returns true if the length of the linked list is empty |if len(icecream) == 0         |O(1)       |  
 
-### Instering 
+### Inserting 
 
 **Insert the Head**
+
 ![Insert Head](insert-head.PNG)
 1. Create the new node.
 1. Set the next pointer of the new node to the current head.
@@ -52,6 +55,7 @@ Linked lists are a good choice when there will be constant changes to the list. 
 In a similar manner use this process to insert to the tail
 
 **Insert in the Middle**
+
 ![Insert Middle](insert-middle.PNG)
 1. 
 1. 
@@ -68,8 +72,8 @@ In a similar manner use this process to insert to the tail
 
 **Removing in the middle**
 ![Remove Middle](removing-middle.PNG)
-1. currentNode.next.prev = currentNode.prev
-1. currentNode.prev.next = currentNode.next
+1. Link the next node to the previous node - currentNode.next.prev = currentNode.prev
+1. link the previous node to the next node - currentNode.prev.next = currentNode.next
 
 ### Accessing
 When we need to traverse anything in a linked list we need to use a loop to check each node for the data that we are searching for. Starting at the head or tail we use the **next** when starting at the **head** (**prev** for starting at the **tail**). We look at the data in each node with each loop until we find the node that we are looking for.

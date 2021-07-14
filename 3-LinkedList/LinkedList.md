@@ -105,6 +105,10 @@ From the Table above we can see that Linked lists are great when we have to inse
 
 ## Example
 
+```python
+
+```
+
 ## Problem to Solve
 
 

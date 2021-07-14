@@ -34,6 +34,12 @@
 
 ## Example
 
+This example shows you how to take a string and reverse it with a stack.
+
+```python
+
+```
+
 ## Problem to Solve
 
 

@@ -42,7 +42,40 @@ As we can see the preformance for all the operations of a stack including adding
 
 ## Example 
 
+This example shows you how to take a string and reverse it with a stack.
+
+```python
+#string options - Live on time, emit no evil
+
+def main(string):
+
+    #create a empty stack
+    letterStack = []
+
+    #take each letter of the string and add it to the stack
+    for letter in string:
+        push(letterStack, letter)
+    
+    #create a new string to add letters to
+    reversed = ""
+
+    #take each letter off the stack until it is empty and add each letter to the new string
+    while len(stack) > 0:
+        reversed = letterStack.pop()
+
+    #return the finished new string
+    return reversed
+
+#print the new string
+print(reversed)
+
+```
+
 ## Try it out!
+
+Print out the sentence from a stack (not in reverse) in order one line at a time
+
+[Solution](stacks.py)
 
 ## Resourses
 ice cream image - https://www.shape.com/healthy-eating/diet-tips/healthy-ice-cream-guide-which-variety-best

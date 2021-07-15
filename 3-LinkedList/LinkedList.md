@@ -105,13 +105,17 @@ From the Table above we can see that Linked lists are great when we have to inse
 
 ## Example
 
+Insert and remove nodes from the head or tail.
+
 ```python
 
 ```
 
-## Problem to Solve
+## Try it Out!
 
+Insert and remove nodes from the middle of the linked list
 
+[Solution](linked_lists.py)
 
 
 [Overview](../README.md) | [Previous Lesson](../2-Stacks/Stacks.md) | [Next Lesson](../4-Trees/Trees.md)

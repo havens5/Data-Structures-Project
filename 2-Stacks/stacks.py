@@ -9,6 +9,7 @@ def main(string):
     
     finalStack = []
     #make it so the first item that you want printed is at the end of the stack to be printed first
+    #use a while loop to flip a stack to another stack
     while len(letterStack) > 0:
         finalStack.append(letterStack.pop())
     

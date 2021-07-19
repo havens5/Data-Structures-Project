@@ -12,7 +12,7 @@
 * [Problem to Solve](#problem-to-solve)
 
 ## Introduction
-Previously in stacks and dynamic arrays we see that they are all *stored in memory right next to one another*. This make for quick access of items and this is the same for a queue, set, and map. A **Linked List** on the other hand is *stored in a random way in memory*. Each element is called a **Node**. Each node contains the address or pointer of the **next** node in the list. When using the same analogy as stacks, each scoop of ice cream will have the location of the next scoop of ice cream.
+Previously in stacks and dynamic arrays we see that they are all *stored in memory right next to one another*. This make for quick access of items and this is the same for a queue, set, and map. A **Linked List** on the other hand is *stored in a random way in memory*. Each element is called a **Node**. Each node contains the address or pointer of the **next** node in the list. When using the same analogy as stacks, each scoop of ice cream will have the location of the next scoop of ice cream and a doubly linked list has the location of the previous bowl of ice cream and the next bowl of ice cream.
 
 **Linked List**
 
@@ -159,7 +159,7 @@ class LinkedList:
          
         #Remove the first node known as the head of the linked list.
         #If the list hos nothing inside of it
-        
+
         if self.head == self.tail:
             self.head = None
             self.tail = None
@@ -185,4 +185,9 @@ Insert and remove nodes from the middle of the linked list
 [Solution](linked_lists.py)
 
 
+## Resourses
+
+CSE 212 Readings
+
+------
 [Overview](../README.md) | [Previous Lesson](../2-Stacks/Stacks.md) | [Next Lesson](../4-Trees/Trees.md)

@@ -145,7 +145,7 @@ Build on the example and Traverse a tree
 
 ## Resourses
 
-CSE 212 Readings and Psrove
+CSE 212 Readings and Prove
 
 [Applications of tree data structure](https://www.geeksforgeeks.org/applications-of-tree-data-structure/)
 

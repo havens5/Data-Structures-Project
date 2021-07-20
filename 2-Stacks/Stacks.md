@@ -80,7 +80,7 @@ Print out the sentence from a stack (not in reverse) in order one line at a time
 ## Resourses
 ice cream image - https://www.shape.com/healthy-eating/diet-tips/healthy-ice-cream-guide-which-variety-best
 
-CSE 212 Readings
+CSE 212 Readings and Prove
 
 -----
 [Overview](../README.md) | [Next Lesson](../3-LinkedList/LinkedList.md)

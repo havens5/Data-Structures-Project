@@ -187,7 +187,7 @@ Insert and remove nodes from the middle of the linked list
 
 ## Resourses
 
-CSE 212 Readings
+CSE 212 Readings and Prove
 
 ------
 [Overview](../README.md) | [Previous Lesson](../2-Stacks/Stacks.md) | [Next Lesson](../4-Trees/Trees.md)
